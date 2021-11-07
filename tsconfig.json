@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "lib": ["es5", "es2015.promise", "dom", "es2015"],
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "declaration": true,
+    "types": ["jest"],
+    "allowSyntheticDefaultImports": true
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
